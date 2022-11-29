@@ -1,1 +1,1 @@
-
+#include "class.h"
