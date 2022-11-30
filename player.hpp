@@ -6,14 +6,12 @@
 // the player class
 class player{
     private:
-        int order;
         string name;
         char symbol;
-        board* b_con;
     public:
-        player(string n,char s);
+        player(char s);
         player(int o,char s);
-        void get_move(int x,int y);
+        void get_move(int &x,int &y);
         string info();
         char get_symbol();
 

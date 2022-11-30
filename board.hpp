@@ -12,8 +12,8 @@ class board{
     public:
         board();
         bool update_board(int x,int y,char s);
-        bool Is_winner();
-        bool Is_draw();
+        bool Is_winner(char symbol);
+        bool Is_draw(char s1,char s2);
         void display_board();
 };
 
